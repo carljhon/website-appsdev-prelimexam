@@ -1,0 +1,572 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* logo */
+.logo img{
+    max-height: 90px;
+    max-width: 90px;
+    float: left;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+/* ---------------- home */
+.home-style {
+    background: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.288)), url("https://cdn.wallpapersafari.com/83/18/TEn1c8.jpg");
+    
+	height: 100vh;
+
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+/*animation_welcometext*/
+@keyframes slideup {
+    from{padding-top: 200px}
+    to{padding-bottom: 90px}
+}
+/*welcome text*/
+.Front {
+	position: static;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+    animation-name: slideup;
+    animation-duration: 4s;
+}
+.Front h1 {
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	font-size: 60px;
+    display: block;
+    font-family: Helvetica;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.322), 0 0 20px rgba(43, 41, 41, 0.562);
+
+}
+.Front h1 span {
+	color: gold;
+}
+
+/* ---------------- Contact us */
+.contact-us-style {
+    background: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.288)), url("https://cdn.motor1.com/images/mgl/z8AGE/s1/2017-suzuki-celerio.jpg");
+    
+	height: 100vh;
+
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+/*animation_phone&address*/
+@keyframes slideleft {
+    from{
+        position: relative;
+        right: 150px;
+        opacity: 0;
+    }
+    to{
+        position: relative;
+        right: 0px;
+        opacity: 1;
+    }
+}
+.phone {
+    border: 1px solid wheat;
+    text-align: center;
+    margin-top: 100px;
+    display: inline-block;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(gray, rgba(0, 132, 255, 0.39));
+    animation-name: slideleft;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+.phone p{
+    font-size: 70px;
+    display: inline-block;
+    color: white;
+}
+.phone p1{
+    display: block;  
+    color: white;
+}
+
+.address {
+    border: 1px solid wheat;
+    text-align: center;
+    margin-top: 100px;
+    display: inline-block;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px; 
+    background: linear-gradient(gray, rgba(0, 132, 255, 0.39));
+    animation-name: slideleft;
+    animation-duration: 3s;
+    animation-delay: 6s;
+}
+.address p{
+    font-size: 70px;
+    display: inline-block;
+    color: white;
+}
+.address p1{
+    display: block;
+    color: white;  
+}
+/*animation_email*/
+@keyframes slideleft1 {
+    from{
+        position: absolute;
+        left: 655px;
+        opacity: 0;
+    }
+    to{
+        position: absolute;
+        left: 811px;
+        opacity: 1;
+    }
+}
+.email {
+    border: 1px solid wheat;
+    text-align: center;
+    display: inline-block;
+    padding-top: 130px;
+    padding-bottom: 169px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: absolute;
+    left: 811px;
+    bottom: 124px;
+    background: linear-gradient(gray, rgba(0, 132, 255, 0.39));
+    animation-name: slideleft1;
+    animation-duration: 3s;
+    animation-delay: 9s;
+}
+.email p{
+    font-size: 70px;
+    display: inline-block;
+    color: white;
+}
+.email p1{
+    margin-top: 10px;
+    display: block;  
+    font-size: 20px;
+    color: white;
+}
+
+/* ---------------- Product */
+.product-style {
+    background: linear-gradient(black, rgba(0, 195, 255, 0.603));
+}
+/* Top background image */
+.top-bg-img img{
+    width: 1400px; 
+    height: 500px; 
+    object-fit: none; 
+    object-position: 50% 70%; 
+}
+.top-bg-img p{
+    background: black;
+    background-size: 50% 100%; 
+    margin-bottom: 5px; 
+    font-size: 40px;
+}
+
+/* Xl7 */
+.xl7-img img{
+    max-height: 200px;
+    max-width: 250px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    padding-right: 10px;
+    margin-left: 200px;
+    display: block;
+    border: 1px solid white;
+    background-color: white;
+    background: linear-gradient(rgba(255, 255, 255, 0.61), rgba(0, 0, 0, 0.452));
+}
+.xl7-par p {
+    margin-left: 100px;
+    display: inline-block;
+    font-size: 70px;
+    color: white;
+}
+.xl7-par1 p1 {
+    text-align: left;
+    display: block;
+    margin-left: 585px;
+    margin-right: 200px;
+    color: white;
+    font-size: 20px; 
+}
+.xl7-sub-img img {
+    display: inline;
+    padding-left: 90px;
+}
+
+/* Spreso */
+.spreso img{
+    max-height: 200px;
+    max-width: 250px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    padding-right: 10px;
+    margin-top: 80px;
+    margin-left: 200px;
+    display: block;
+    border: 1px solid white;
+    background-color: white;
+    background: linear-gradient(rgba(255, 255, 255, 0.61), rgba(0, 0, 0, 0.452));
+}
+.spreso-par p {
+    margin-top: 80px;
+    margin-left: 100px;
+    display: inline-block;
+    font-size: 70px;
+    color: white;
+}
+.spreso-par1 p1 {
+    text-align: left;
+    display: block;
+    margin-left: 585px;
+    margin-right: 100px;
+    color: white;
+    font-size: 20px; 
+}
+.spreso-other img {
+    display: inline;
+    padding-left: 90px;
+    height: 400px;
+}
+
+/* Jimmy */
+.jimny img{
+    max-height: 200px;
+    max-width: 250px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    padding-right: 10px;
+    margin-top: 80px;
+    margin-left: 200px;
+    display: block;
+    border: 1px solid white;
+    background-color: white;
+    background: linear-gradient(rgba(255, 255, 255, 0.61), rgba(0, 0, 0, 0.452));
+}
+.jimny-par p {
+    margin-top: 80px;
+    margin-left: 100px;
+    display: inline-block;
+    font-size: 70px;
+    color: white;
+}
+.jimny-par1 p1 {
+    text-align: left;
+    display: block;
+    margin-left: 585px;
+    margin-right: 100px;
+    color: white;
+    font-size: 20px; 
+}
+.jimny-other img {
+    display: inline;
+    padding-left: 90px;
+    height: 400px;
+}
+
+/*  ---------------- about us */
+.about-style {
+    background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0)), url("https://images.alphacoders.com/251/thumb-1920-251611.jpg");
+    
+	height: 100vh;
+
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+/*animation_about*/
+@keyframes about {
+    from{
+        position: relative;
+        top: 1400px;
+    }
+    to{
+        position: relative;
+        top: 0px;
+    }
+}
+.about {
+    border: 1px solid wheat;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(rgba(255, 48, 127, 0.575), rgba(0, 225, 255, 0.397));
+    animation-name: about;
+    animation-duration: 5s;
+}
+.about p{
+    font-size: 70px;
+    display: inline-block;
+    color: white;
+}
+.about p1{
+    display: block;  
+    color: white;
+    font-size: 20px;
+}
+
+/*navigation*/
+.nav {
+    font-family: Roboto,sans-serif;
+	list-style: none;
+    padding-top: 25px;
+    padding-right: 40px;
+    display: block;
+}
+.nav li {
+    float: right;
+}
+.nav li a {
+	color: #fff;
+	text-decoration: none;
+    padding: 2px 10px;
+	font-size: 16px;
+	text-transform: uppercase;
+    transition: 0.6s ease;
+    
+}
+.nav li a:hover {
+	background: #fff;
+	color: #333;
+}
+.nav li.active a{
+	background: #fff;
+	color: #333;
+}
+
+/*main positio for navigation and logo*/
+.main{
+    position: sticky;
+    top: 0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Phone Portrait */
+@media (max-width:500px) {
+	.nav {
+		float: none;
+		margin-top: 0;
+	}
+	.nav li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+    /*home*/
+	.Front {
+		width: 100%;
+		height: auto;
+        margin-top: 200px;
+		margin-left: 150px; 
+	}
+    .Front h1 {
+        font-size: 30px;
+    }
+
+    /*  ---------------- product */
+    /* Top background image */
+    .top-bg-img img{
+        width: auto; 
+        height: 300px; 
+        margin-left: 10px; 
+        object-fit: scale-down; 
+    }
+    .top-bg-img p{
+        background: black;
+        background-size: 50% 100%; 
+        margin-bottom: 5px; 
+        font-size: 15px;
+    }
+
+    /* Xl7 */
+    .xl7-img img{
+        max-height: 100px;
+        max-width: 150px;
+        float: left;
+        padding-left: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 10px;
+        margin-left: 10px;
+    }
+    .xl7-par p {
+        margin-left: 17px;
+        font-size: 30px;
+    }
+    .xl7-par1 p1 {
+        margin-left: 200px;
+        margin-right: 10px;
+        font-size: 16px; 
+    }
+    .xl7-sub-img img {
+        padding-left: 90px;
+        height: 200px;
+    }
+
+    /* Spreso */
+    .spreso img{
+        max-height: 100px;
+        max-width: 150px;
+        float: left;
+        padding-left: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 10px;
+        margin-left: 10px;
+    }
+    .spreso-par p {
+        margin-left: 17px;
+        font-size: 30px;
+    }
+    .spreso-par1 p1 {
+        margin-left: 200px;
+        margin-right: 10px;
+        font-size: 16px; 
+    }
+    .spreso-other img {
+        padding-left: 90px;
+        height: 200px;
+    }
+
+    /* Jimmy */
+    .jimny img{
+        max-height: 100px;
+        max-width: 150px;
+        float: left;
+        padding-left: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 10px;
+        margin-left: 10px;
+    }
+    .jimny-par p {
+        margin-left: 17px;
+        font-size: 30px;
+    }
+    .jimny-par1 p1 {
+        margin-left: 200px;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    .jimny-other img {
+        padding-left: 90px;
+        height: 200px;
+    }
+
+    /*animation_about*/
+    .about-style {
+        height: 400px;
+        width: 500px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .about {
+        border: 1px solid wheat;
+        text-align: center;
+        margin-top: 20px;
+        display: inline-block;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about p{
+        font-size: 30px;
+    }
+    .about p1{
+        font-size: 16px;
+    }
+
+
+    /*  ---------------- about us */
+    .contact-us-style {
+        background: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.288)), url("https://cdn.motor1.com/images/mgl/z8AGE/s1/2017-suzuki-celerio.jpg");
+        height: 900px;
+        width: 500px;
+
+        background-size: cover;
+        background-position: center;
+    }
+    .phone {
+        margin-top: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 95px;
+        padding-right: 90px;
+        margin-left: 20px;
+    }
+    .phone p{
+        font-size: 50px;
+    }
+
+    .address {
+        margin-top: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 90px;
+        padding-right: 90px;
+        margin-left: 20px;
+    }
+    .address p{
+        font-size: 50px;
+    }
+
+    /*animation_email*/
+    @keyframes slideleft2 {
+        from{
+            position: absolute;
+            left: 0px;
+            opacity: 0;
+        }
+        to{
+            position: absolute;
+            left: 20px;
+            opacity: 1;
+        }
+    }
+    .email {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 115px;
+        padding-right: 115px;
+        left: 20px;
+        top: 530px;
+        animation-name: slideleft2;
+        animation-duration: 3;
+        animation-delay: 9;
+    }
+    .email p{
+        font-size: 50px;
+    }
+    .email p1{
+        margin-top: 10px;
+    }
+}
